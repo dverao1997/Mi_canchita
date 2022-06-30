@@ -7,10 +7,7 @@
     android:background="@drawable/estadio2"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width=""
-        android:layout_height=""></ImageView>
-    <TextView
+        <TextView
         android:id="@+id/lblusuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -68,7 +65,7 @@
         android:id="@+id/btnIniciarSesion"
         android:layout_width="196dp"
         android:layout_height="48dp"
-        android:background=""
+        android:background="#4CAF50"
         android:backgroundTint="#000000"
         android:onClick="inicioSesion"
         android:text="@string/BotonIniciairSesion"
@@ -96,4 +93,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.887" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="104dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/campo_de_futbol" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="La canchita"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
