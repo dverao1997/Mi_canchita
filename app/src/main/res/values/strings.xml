@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">La Canchita</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="BotonIniciairSesion">Iniciar Sesion</string>
+    <string name="BontonRegistrarse">Registrarse</string>
+    <string name="BotonCampeonato">Campeonato</string>
+    <string name="BotonPartido">Partido Simple</string>
+    <string name="BotonVerActividad">Ver Actividad</string>
+    <string name="BotonHome">Home</string>
+    <string name="viewPaPrin">Primer Activity</string>
+
+</resources>
