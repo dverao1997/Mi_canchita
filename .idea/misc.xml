@@ -3,11 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/CyberLink/Documents/GitHub/Mi_canchita/app/src/main/res/layout/activity_main.xml" value="0.278125" />
+        <entry key="..\:/Users/CyberLink/Documents/GitHub/Mi_canchita/app/src/main/res/layout/activity_pantalla_principal.xml" value="0.278125" />
+        <entry key="..\:/Users/CyberLink/Documents/GitHub/Mi_canchita/app/src/main/res/layout/activity_registro_usuario2.xml" value="0.278125" />
         <entry key="..\:/Users/Dany/AndroidStudioProjects/LaCanchita/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Dany/AndroidStudioProjects/LaCanchita/app/src/main/res/layout/activity_pantalla_principal.xml" value="0.22" />
         <entry key="..\:/Users/Dany/AndroidStudioProjects/LaCanchita/app/src/main/res/layout/activity_registro_usuario2.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/Dany/Documents/GitHub/Mi_canchita/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/Dany/Documents/GitHub/Mi_canchita/app/src/main/res/layout/activity_registro_usuario2.xml" value="0.3333333333333333" />
       </map>
     </option>
   </component>
