@@ -8,85 +8,105 @@
     tools:context=".PantallaPrincipal">
 
     <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="LA CANCHITA"
+        android:textColor="#F7F4ED"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/textView"
-        android:layout_width="80dp"
-        android:layout_height="28dp"
+        android:layout_width="103dp"
+        android:layout_height="42dp"
         android:text="Inicio"
-        android:textColor="@color/white"
-        android:textSize="60px"
+        android:textColor="#F7F4ED"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintHorizontal_bias="0.298"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.062" />
+        app:layout_constraintVertical_bias="0.04" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="175dp"
-        android:layout_height="52dp"
-        android:background=""
+        android:layout_width="221dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#49678d"
         android:text="@string/BotonCampeonato"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F7F4ED"
         android:textSize="62px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654" />
+        app:layout_constraintVertical_bias="0.66" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="223dp"
-        android:layout_height="50dp"
-        android:background=""
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#49678d"
         android:text="@string/BotonPartido"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F7F4ED"
         android:textSize="62px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.733" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="189dp"
-        android:layout_height="50dp"
-        android:background=""
+        android:layout_width="219dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#49678d"
         android:text="@string/BotonVerActividad"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F7F4ED"
         android:textSize="62px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815" />
+        app:layout_constraintVertical_bias="0.812" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="140dp"
-        android:layout_height="175dp"
+        android:layout_width="83dp"
+        android:layout_height="93dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393"
-        app:srcCompat="@drawable/LogoBlanco" />
+        app:layout_constraintVertical_bias="0.334"
+        app:srcCompat="@drawable/campo_de_futbol" />
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="87dp"
-        android:layout_height="83dp"
+        android:layout_width="62dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#D2D1D2"
         android:contentDescription="@string/BotonHome"
         android:onClick="Home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.046"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006"
-        app:srcCompat="@drawable/casa" />
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

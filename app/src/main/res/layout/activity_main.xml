@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/estadio2"
     tools:context=".MainActivity">
 
     <TextView
@@ -11,22 +12,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Usuario"
-        android:textColor="@color/white"
+        android:textColor="#F7F4ED"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.511" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="253dp"
-        android:layout_height="48dp"
+        android:layout_width="301dp"
+        android:layout_height="40dp"
+        android:background="#37D6DAD2"
+        android:textColorHint="#f6f6f6"
+        android:textColor="#d1d1d2"
         android:ems="10"
-        android:hint="@string/user"
+        android:hint=""
         android:inputType="textPersonName"
-        android:textColor="#c2c2c2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,22 +41,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contraseña"
-        android:textColor="@color/white"
+        android:textColor="#F7F4ED"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintHorizontal_bias="0.178"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627" />
+        app:layout_constraintVertical_bias="0.63" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="254dp"
-        android:layout_height="48dp"
+        android:layout_width="301dp"
+        android:layout_height="40dp"
+        android:background="#37D6DAD2"
+        android:textColorHint="#f6f6f6"
+        android:textColor="#d1d1d2"
         android:ems="10"
-        android:hint="@string/pass"
+        android:hint=""
         android:inputType="textPassword"
-        android:textColor="#c2c2c2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,29 +68,30 @@
         tools:ignore="DuplicateSpeakableTextCheck" />
 
 
-
     <Button
         android:id="@+id/btnRegstr"
-        android:layout_width="160dp"
-        android:layout_height="48dp"
-        android:background=""
+        android:layout_width="164dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#49678d"
+        android:onClick="registrarse"
         android:text="@string/BontonRegistrarse"
+        android:textColor="#F7F4ED"
         android:textSize="45px"
         app:iconTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.887" />
+        app:layout_constraintVertical_bias="0.872" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="104dp"
         android:layout_height="119dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="148dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/campo_de_futbol" />
@@ -93,19 +100,22 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:text="La canchita"
+        android:layout_marginTop="88dp"
+        android:text="LA CANCHITA"
+        android:textColor="#F7F4ED"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#E91E63"
-        android:text="Button"
+        android:layout_width="165dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#49678d"
+        android:text="@string/BotonIniciairSesion"
+        android:textColor="#F7F4ED"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
