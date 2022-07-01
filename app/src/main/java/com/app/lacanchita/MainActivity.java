@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(iniSes);
     }
 
-    /*public void registrarse (View view){
-        Intent regis = new Intent(this, .class);
+    public void registrarse (View view){
+        Intent regis = new Intent(this, RegistroUsuario2.class);
         startActivity(regis);
-    }*/
+    }
 }
