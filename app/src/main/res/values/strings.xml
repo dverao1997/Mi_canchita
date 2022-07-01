@@ -35,5 +35,6 @@
     <string name="pay">PAY</string>
     <string name="_0000">0000</string>
     <string name="pagos">Pagos</string>
+    <string name="actividad">Actividad</string>
 
 </resources>
